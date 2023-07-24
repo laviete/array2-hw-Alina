@@ -6,7 +6,7 @@ const result = array.filter(
 );
 console.log(result);
 
-function getDuplicatesNums(arr) {
+function getDuplicateNums(arr) {
   return arr.filter(
     (elem, index) =>
     arr.indexOf(elem) !== index && 
@@ -14,4 +14,4 @@ function getDuplicatesNums(arr) {
   );
 }
 const arr = [1, 2, 3, 1, 5, 6, 1, 2, 5];
-console.log(getDuplicatesNums(array));
+console.log(getDuplicatesNums(arr));
